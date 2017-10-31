@@ -1,33 +1,33 @@
+// reserve table
 
-$(".available").on("click",function(){
+$(".available").on("click", function reserveTable(){
+		let tableNum = $(this).text();
+		$("#table-id").text(tableNum);
+		$( this ).toggleClass( "reserved" );
+    	$(".popup").css("display","flex");
 
-    $(".popup").css("display","flex");
-    $( this ).toggleClass( "reserved" );
+		// alert("yo " + "this is " + tableNum);
+	});
 
-});
 
+
+// close or cancel
 
 $(".cancel").on("click",function(){
 
-	$(".popup").css("display","none");
+	
     $( this ).toggleClass( "available" );
+    $(".popup").css("display","none");
+
 
 });
 
 
-let table1 = $( "table1" );
+// Save
 
-
-// $(table1).on("click", function(){
-//     alert(table1 + " was clicked.");
-// }); 
-
-
-if ($(".available").on("click", function(){
-	($)
-	alert("yo");
-
-}));
+$('#save').on('click', function() {
+      $(".popup").css("display", "none");
+    });
 
 
 // let tableDetails {
@@ -38,3 +38,7 @@ if ($(".available").on("click", function(){
 // 	groupSize:0
 
 // }
+
+
+
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="144px" height="144px" viewBox="0 0 144 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>tails</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="65" cy="65" r="65"></circle>
+        <filter x="-8.8%" y="-7.3%" width="117.7%" height="117.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.329411765   0 0 0 0 0.329411765   0 0 0 0 0.329411765  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Coin-Flipper" transform="translate(-163.000000, -104.000000)">
+            <g id="Group-5" transform="translate(20.000000, 109.000000)">
+                <g id="tails" transform="translate(150.000000, 0.000000)">
+                    <g id="Group-3">
+                        <g id="Group">
+                            <g id="Oval">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                            <circle id="Oval-2-Copy" stroke="#E6E7E8" stroke-width="0.866666667" cx="65.4333333" cy="65.4333333" r="58.0666667"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
