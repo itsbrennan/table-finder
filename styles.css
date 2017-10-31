@@ -68,6 +68,7 @@ h2 {
 	align-items: center;
 	justify-content: center;
 	margin:10px;
+	cursor: pointer;
 
 }
 
@@ -83,6 +84,7 @@ h2 {
 	justify-content: center;
 	margin:10px;
 	color:white;
+	cursor: not-allowed;
 
 }
 

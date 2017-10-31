@@ -15,8 +15,7 @@ $(".available").on("click", function reserveTable(){
 
 $(".cancel").on("click",function(){
 
-	
-    $( this ).toggleClass( "available" );
+    // $( this ).toggleClass( "available" );
     $(".popup").css("display","none");
 
 
