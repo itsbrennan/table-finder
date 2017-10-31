@@ -1,18 +1,18 @@
 
-// $(".available").on("click",function(){
+$(".available").on("click",function(){
 
-//     $(".popup").css("display","flex");
-//     $( this ).toggleClass( "reserved" );
+    $(".popup").css("display","flex");
+    $( this ).toggleClass( "reserved" );
 
-// });
+});
 
 
-// $(".cancel").on("click",function(){
+$(".cancel").on("click",function(){
 
-// 	$(".popup").css("display","none");
-//     $( this ).toggleClass( "available" );
+	$(".popup").css("display","none");
+    $( this ).toggleClass( "available" );
 
-// });
+});
 
 
 let table1 = $( "table1" );
@@ -24,7 +24,7 @@ let table1 = $( "table1" );
 
 
 if ($(".available").on("click", function(){
-	debugger;
+	($)
 	alert("yo");
 
 }));
