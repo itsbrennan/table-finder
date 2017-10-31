@@ -72,6 +72,11 @@ h2 {
 
 }
 
+.available:hover {
+	background-color: #FFF89A;
+}
+
+
 
 .reserved{
 
