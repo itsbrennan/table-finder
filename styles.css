@@ -6,7 +6,7 @@ body{
 h1{
 
 	font-family: Avenir;
-	font-size: 2em;
+	font-size: 3em;
 	font-weight: 900;
 	letter-spacing: 1px;
 	text-align: center;
@@ -35,8 +35,6 @@ h2 {
 	margin: 0;
 }
 
-
-
 .wrapper {
 	display: flex;
 	flex-direction: column;
@@ -59,38 +57,31 @@ h2 {
 }
 
 
-.available{
+.circles {
 	display: flex;
 	width: 66px;
 	height: 66px;
-	background-color: #ecf0f1;
 	border-radius: 100%;
 	align-items: center;
 	justify-content: center;
 	margin:10px;
-	cursor: pointer;
+	background-color: #ecf0f1;
 
+}
+
+.available {
+	background-color: #ecf0f1;
+	cursor: pointer;
+}
+
+.reserved {
+	background-color: #ADAAAA;
+	color: #C6CACB;
+	cursor: not-allowed;
 }
 
 .available:hover {
 	background-color: #FFF89A;
-}
-
-
-
-.reserved{
-
-	display: flex;
-	width: 66px;
-	height: 66px;
-	background-color: #898c8c;
-	border-radius: 100%;
-	align-items: center;
-	justify-content: center;
-	margin:10px;
-	color:white;
-	cursor: not-allowed;
-
 }
 
 .popup {
@@ -100,8 +91,8 @@ h2 {
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: 10;
-  background-color: rgba(76, 76, 76, 0.05);
+  z-index: 1;
+  background-color: rgba(76, 76, 76, 0.025);
   
 }
 
@@ -179,4 +170,26 @@ h2 {
 	justify-content: center;
 	width: 100%;
 
+}
+
+.hover-details {
+	width: 120px;
+	height: 40px;
+	position: absolute;
+	margin-top: 100px;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: rgba(120,120,120,.8);
+	font-size: .7em;
+	color: black;
+	display: none;
+	margin-top: 10px;
+	margin-left: -55px;
+}
+
+.hover-details p {
+	margin: 4px 2px;
+	padding: 0;
+	text-align: left;
+	font-weight: 700;
 }
